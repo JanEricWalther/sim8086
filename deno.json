@@ -1,0 +1,33 @@
+{
+  "lint": {
+    "include": ["src/"],
+    "exclude": ["src/testdata/"],
+    "rules": {
+      "tags": ["recommended"],
+      "include": ["ban-untagged-todo"],
+      "exclude": ["no-unused-vars"]
+    }
+  },
+  "fmt": {
+    "options": {
+        "useTabs": true,
+        "lineWidth": 120,
+        "indentWidth": 4,
+        "singleQuote": true,
+        "proseWrap": "preserve"
+    },
+    "files": {
+        "include": ["src/"],
+        "exclude": ["src/testdata/"]
+    }
+  },
+  "test": {
+    "files": {
+        "include": ["src/"],
+        "exclude": ["src/testdata/"]
+    }
+  },
+  "tasks": {
+    "dev": "deno run -A --watch src/main.ts"
+  }
+}
