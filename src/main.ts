@@ -44,8 +44,8 @@ enum Opcode {
 function main() {
     const in_buff = new Uint8Array(1024);
     const bytesRead = in_file.readSync(in_buff) || 0;
-    write_line(`; ${input_file}\n`);
-    write_line('bits 16\n');
+    write_line(`; ${input_file} dissassembly:`);
+    write_line('bits 16');
 
     for (let i = 0; i < bytesRead; i++) {
         const op_code = in_buff[i] >> 2;
