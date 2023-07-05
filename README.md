@@ -1,6 +1,6 @@
 # sim8086
 
-8086 Microprocessor Simulatioin for the [Computer Enhance! Course](https://www.computerenhance.com/p/table-of-contents).
+8086 Microprocessor Simulation for the [Computer Enhance! Course](https://www.computerenhance.com/p/table-of-contents).
 
 [Intel_8086 Architecture](https://en.wikipedia.org/wiki/Intel_8086)
 
